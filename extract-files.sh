@@ -28,7 +28,7 @@ fi
 set -e
 
 export DEVICE=whyred
-export DEVICE_COMMON=sdm660-common
+export DEVICE_COMMON=bouquet-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
